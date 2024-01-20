@@ -1,0 +1,105 @@
+body{
+    background-image: url(/Images/WhatsApp\ Image\ 2024-01-13\ at\ 23.02.47_345b471d.jpg);
+    background-image: url(/Images/2108963a4dcf74cdbcc13073c4185f83.jpg);
+    background-size: 100% 100%;
+    width: auto;
+    background-attachment: fixed;
+    color: white;
+    }
+
+button{
+    background-color:black;
+    color: white;
+    border-radius: 5px;
+}
+a{
+    padding: 10px 10px;
+    text-decoration: none;
+    color: white;
+}
+@keyframes example{
+from {background-color: black;}
+to {
+    background-color: yellow;
+}
+}
+#home{
+    background-image: url(/Images/images\ \(10\).jpeg);
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position-x: center center;
+    color: white;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    margin-top: 100px;
+
+    margin-left: 50%;
+    margin-right: 70%;
+}
+#about{
+    height: 200px;
+    width: 300px;
+    background-image: url(/Images/images\ \(10\).jpeg);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 0px;
+    
+    margin-bottom: 0%;
+    }
+#skills{
+    background-image: url(/Images/images\ \(10\).jpeg);
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position-x: center center;
+    color: white;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 50%;
+    margin-right: 70%;
+    
+}
+#contact{
+    height: 400px;
+    width: 300px;
+    background-image: url(/Images/images\ \(10\).jpeg);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    padding: 10px;
+    margin: 200px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.nav{
+    position: fixed;
+    background-color: darkslategray;
+    border-radius: 5px;
+    margin: 0%;
+    color: white;
+    padding: 10px;
+    display: block;
+    text-align: end;
+    
+    animation: example;
+    animation-duration: 4s;
+}
+#khan{
+    margin-left: 100px;
+    margin-top: 80px;
+    padding: 5px;
+    background-color:red;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+#link{
+    padding-top: 250px;
+    position: fixed;
+    padding-left: 0%;
+    padding-right: 0%;
+    inline-size: 0%;
+}
